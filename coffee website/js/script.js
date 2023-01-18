@@ -21,7 +21,9 @@ document.querySelector('#cart-btn').onclick = () =>{
     navbar.classList.remove('active');
     searchForm.classList.remove('active');
 } 
-
+function addToCart(id){
+    alert("asda");
+}
 window.onscroll = () =>{
     navbar.classList.remove('active');
     searchForm.classList.remove('active');
